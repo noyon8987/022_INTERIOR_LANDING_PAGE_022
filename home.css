@@ -50,6 +50,10 @@ body {
   width: 6vw;
 }
 
+.icon_section a {
+  margin-top: 0.3vh;
+}
+
 .icon_section i {
   font-size: 6vw;
 }
@@ -482,6 +486,10 @@ h1 {
   .icon_section img {
     width: 2.5vw;
     margin: -0.5vw;
+  }
+
+  .icon_section a {
+    margin-top: 0.3vh;
   }
 
   .icon_section i {
@@ -1066,6 +1074,10 @@ h1 {
     margin: -0.8vw;
   }
 
+  .icon_section a {
+    margin-top: -2vh;
+  }
+
   .icon_section i {
     display: none;
   }
@@ -1274,13 +1286,17 @@ h1 {
   .all_product_overlay button {
     font-size: 14px;
     font-weight: 600;
-    color: #b88e2f;
     background-color: rgb(255, 255, 255);
     padding: 1vh 2vw;
-    z-index: 99999;
+    z-index: 99999999;
     position: relative;
     top: 30%;
     left: 26%;
+  }
+
+  .all_product_overlay button a {
+    text-decoration: none;
+    color: #b88e2f;
   }
 
   .share_like_icon {
