@@ -9,3 +9,129 @@ html , body{
     height: auto;
     scroll-behavior: smooth;
 }
+
+.blog_section {
+    width: 100%;
+    padding: 5vw 8vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog_left_section {
+    width: 70%;
+}
+
+.blog_img {
+    width: 86%;;
+}
+
+.blog_left_parant_div {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    padding-top: 2vh;
+}
+
+.blog_left_child_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vw;
+}
+
+.blog_left_child_div p {
+    font-size: 14px;
+    color: #9F9F9F;
+}
+
+.blog_left_child_div img {
+    width: 1.2vw;
+}
+
+.blog_left_section h1 {
+    text-align: left;
+    padding: 3vh 0;
+    font-size: 2vw;
+}
+
+.blog_left_section p {
+    color: #9F9F9F;
+    font-size: 15px;
+}
+
+.blog_left_section .expand_para {
+    color: black;
+    padding: 2vh 0 5vh;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+}
+
+.blog_left_section .expand_para::after {
+    content: "";
+    width: 6vw;
+    height: 0.11vw;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 5vh;
+}
+
+.blog_right_section {
+    width: 30%;
+}
+
+.blog_search_div {
+    position: relative;
+}
+
+.blog_search_div input {
+    width: 100%;
+    height: 7vh;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(211, 208, 208);
+}
+
+.blog_search_div img {
+    position: absolute;
+    top: 2vh;
+    right: 0.5vw;
+    width: 1.5vw;
+}
+
+.blog_right_section h2  {
+    padding: 5vh 1vw;
+}
+
+.categories_div {
+    padding: 0 1vw;
+}
+
+.categories_div div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 6.5vh;
+    color: #9F9F9F;
+}
+
+.post_section {
+    padding: 0 1vw;
+}
+
+.post_clild_div {
+    display: flex;
+    gap: 1vw;
+    padding-bottom: 2vw;
+}
+
+.post_clild_div div p:nth-child(1) {
+    font-size: 15px;
+}
+.post_clild_div div p:nth-child(2) {
+    color: #9F9F9F;
+    font-size: 14px;
+    padding-top: 1vh;
+}

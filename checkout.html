@@ -6,8 +6,8 @@
     <title>interior-landing-contact-page</title>
     <link rel="stylesheet" href="home.css" />
     <link rel="stylesheet" href="shop.css" />
-    <link rel="stylesheet" href="contact.css" />
-    <link rel="stylesheet" href="cart.css" />
+    <link rel="stylesheet" href="checkout.css" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -49,49 +49,117 @@
           <img src="./img/shop_hero_img.png" />
         </div>
         <div class="shop_hero_content">
-          <img style="width: 3vw; margin-left: 2vw" src="./img/logo.png" />
-          <h1>Cart</h1>
-          <p>Home <img src="./img/gaterthen.png" /> Cart</p>
+          <img style="width: 3vw; margin-left: 5.5vw" src="./img/logo.png" />
+          <h1>Checkout</h1>
+          <p>Home <img src="./img/gaterthen.png" /> Checkout</p>
         </div>
       </div>
       <!-- Shop Hero section Ends Here -->
 
-      <!-- Cart Section Starts Here -->
-      <div class="cart_section">
-        <div class="cart_left_section">
-          <div class="cart_left_top_section">
-            <ul class="cart_list">
-              <li><a href="#" class="cart_link">Product</a></li>
-              <li><a href="#" class="cart_link">Price</a></li>
-              <li><a href="#" class="cart_link">Quantity</a></li>
-              <li><a href="#" class="cart_link">Subtotal</a></li>
-            </ul>
-          </div>
-
-          <div class="cart_left_bottom_section">
-            <img src="./img/sofa1.png" />
-            <p>Asgaard Sofa</p>
-            <p>Rs. 250,000.00</p>
-            <div class="box">1</div>
-            <p>Rs. 250,000.00</p>
-            <img src="./img/delete.png" />
-          </div>
+      <!-- Chectout Section Starts Here -->
+      <div class="checkout_section">
+        <div class="checkout_left_section">
+          <h1>Billing details</h1>
+          <form>
+            <div class="name_input_section">
+              <div>
+                <label>First Name</label>
+                <input type="text" />
+              </div>
+              <div>
+                <label>Last Name</label>
+                <input type="text" />
+              </div>
+            </div>
+            <div class="input_section">
+              <label>Company Name (Optional)</label>
+              <input type="text" />
+            </div>
+            <div class="input_section">
+              <label>Country / Region</label>
+              <select>
+                <option value="Sri Lanka">Sri Lanka</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="Pakistan">Pakistan</option>
+              </select>
+            </div>
+            <div class="input_section">
+              <label>Street address</label>
+              <input type="text" />
+            </div>
+            <div class="input_section">
+              <label>Town / city</label>
+              <input type="text" />
+            </div>
+            <div class="input_section">
+              <label>Province</label>
+              <input type="text" />
+            </div>
+            <div class="input_section">
+              <label>ZIP code</label>
+              <input type="text" />
+            </div>
+            <div class="input_section">
+              <label>Phone</label>
+              <input type="text" />
+            </div>
+            <div class="input_section">
+              <label>Email address</label>
+              <input type="email" />
+            </div>
+            <div class="input_section">
+              <input type="text" placeholder="Additinal information" />
+            </div>
+          </form>
         </div>
 
-        <div class="cart_right_section">
-          <h3>Cart Totals</h3>
-          <div class="sub_total">
-            <p>Subtotal</p>
-            <p>Rs. 250,000.00</p>
+        <div class="checkout_right_section">
+          <div class="checkout_right_top_section">
+            <div class="checkout_top_left">
+              <h2>Product</h2>
+              <p>Asgaard sofa x 1</p>
+              <p>Subtotal</p>
+              <p>Total</p>
+            </div>
+            <div class="checkout_top_right">
+              <h2>Subtotal</h2>
+              <p>Rs. 250,000.00</p>
+              <p>Rs. 250,000.00</p>
+              <p>Rs. 250,000.00</p>
+            </div>
           </div>
-          <div class="total">
-            <p>Total</p>
-            <p>Rs. 250,000.00</p>
+          <div class="checkout_right_bottom_section">
+            <div class="bank_transfer">
+              <input type="radio" />
+              <p>Direct Bank Transfer</p>
+            </div>
+            <p>
+              Make your payment directly into our bank account. Please use
+              <br />
+              your Order ID as the payment reference. Your order will not be
+              <br />
+              shipped until the funds have cleared in our account.
+            </p>
+            <div class="bank_transfer">
+              <input type="radio" />
+              <p>Direct Bank Transfer</p>
+            </div>
+            <div class="bank_transfer">
+              <input type="radio" />
+              <p>Direct Bank Transfer</p>
+            </div>
+            <p>
+              Your personal data will be used to support your experience <br />
+              throughout this is website, manage access to your account
+              <br />
+              for other purposes described in our
+              <strong>privacy policy</strong>.
+            </p>
+            <a href="confirmOrder.html">Place order</a>
           </div>
-          <a href="checkout.html">Check Out</a>
         </div>
       </div>
-      <!-- Cart Section Ends Here -->
+      <!-- Chectout Section Ends Here -->
 
       <!-- Shop Quality Section Starts Hero -->
       <div class="shop_quality_section">

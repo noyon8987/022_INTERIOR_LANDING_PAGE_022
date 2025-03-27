@@ -1,0 +1,129 @@
+.cart_section {
+  display: flex;
+  justify-content: space-between;
+  padding: 5vw 10vw;
+  width: 100%;
+  gap: 2vw;
+}
+
+.cart_left_section {
+  width: 75%;
+}
+
+.cart_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 10vw;
+  background-color: #f9f1e7;
+  padding: 2vh 4vw;
+}
+
+.cart_link {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.cart_left_bottom_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.3vw;
+  padding-top: 3vh;
+}
+
+.cart_left_bottom_section p:nth-child(2) {
+  color: #9f9f9f;
+  font-size: 15px;
+}
+
+.cart_left_bottom_section p:nth-child(3) {
+  color: #9f9f9f;
+  font-size: 15px;
+}
+
+.cart_left_bottom_section p:nth-child(5) {
+  font-size: 15px;
+}
+
+.cart_left_bottom_section img:nth-child(6) {
+  width: 1.5vw;
+  margin-bottom: 0.5vh;
+}
+
+.cart_left_bottom_section .box {
+  border: 1px solid #b4b2b2;
+  padding: 1.1vh 2vh;
+  border-radius: 5px;
+}
+
+.cart_left_bottom_section img:nth-child(1) {
+  width: 10vw;
+  background-color: #f9f1e7;
+  border-radius: 5px;
+}
+
+.cart_right_section {
+  width: 25%;
+}
+
+.cart_right_section {
+  background-color: #f9f1e7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart_right_section h3 {
+  padding: 3vh 0 6vh;
+}
+
+.sub_total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3vw;
+}
+
+.sub_total p:nth-child(1) {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.sub_total p:nth-child(2) {
+  font-size: 15px;
+  color: #b4b2b2;
+  font-weight: 600;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4.2vw;
+  padding-top: 5vh;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.total p:nth-child(2) {
+  color: #b88e2f;
+}
+
+.cart_right_section a {
+  text-decoration: none;
+  padding: 1.5vh 2vw;
+  margin: 5vh 0;
+  border: 1px solid rgb(143, 139, 139);
+  border-radius: 5px;
+  color: black;
+  transition: all linear 0.3s;
+}
+
+.cart_right_section a:hover {
+  background-color: #b88e2f;
+  color: white;
+}
